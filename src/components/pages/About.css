@@ -1,0 +1,34 @@
+strong {
+  font-weight: 400;
+}
+
+.container {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-description {
+  width: 50vw;
+}
+
+.resume {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 960px) {
+
+  .container {
+    flex-direction: column;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+
+  .text-description {
+    width: 80vw;
+    padding-top: 5vw;
+  }
+}
