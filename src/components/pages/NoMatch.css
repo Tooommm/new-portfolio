@@ -1,3 +1,11 @@
+.no-match .container {
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
+
+
+
 .content {
   text-align: center;
 }

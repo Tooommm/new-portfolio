@@ -21,6 +21,11 @@
   background-position: center center;
 }
 
+.container {
+  width: 80vw;
+  display: flex;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;

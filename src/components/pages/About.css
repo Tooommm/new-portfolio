@@ -2,10 +2,10 @@ strong {
   font-weight: 400;
 }
 
-.container {
-  width: 80vw;
-  display: flex;
+.about .container {
+  justify-content: space-around;
   align-items: center;
+
 }
 
 .text-description {
