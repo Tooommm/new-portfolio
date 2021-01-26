@@ -1,6 +1,6 @@
 import React from 'react';
 import './DownloadButton.css'
-import cv from "../assets/CV.pdf";
+import cv from "../assets/CV_Thomas_Brouillet.pdf";
 
 const DownloadButton = () => {
   return (
@@ -13,7 +13,7 @@ const DownloadButton = () => {
 
         <div class="face-secondary">
           <span class="icon fa fa-hdd-o"></span>
-          Size: 2.1 mo
+          Size: 154 ko
         </div>
 
       </a>
