@@ -1,7 +1,7 @@
-import React from 'react';
-import ProfileCard from '../ProfileCard';
-import DownloadButton from '../DownloadButton'
-import './About.css';
+import React from "react";
+import ProfileCard from "../ProfileCard";
+import DownloadButton from "../DownloadButton";
+import "./About.css";
 
 const About = () => {
   return (
@@ -10,18 +10,29 @@ const About = () => {
         <ProfileCard />
         <div className="text-description">
           <h2>Salut! Moi c'est Thomas.</h2>
-          <br/>
-          <p>Passionné par le code, je suis un tout jeune développeur à la recherche de nouveaux projets incroyables! J’ai suivi récemment la formation du Wagon et je suis maintenant totalement opérationnel.</p>
-          <br/>
-          <p>J’ai été formé avec <strong>Ruby</strong>, <strong>Ruby On Rails</strong> et <strong>Javascript</strong>. Je développe également des applications extraordinaires avec <strong>React</strong> et <strong>Node.js</strong>. Je recherche un poste de développeur et suis à l'écoute des opportunités ! N’hésitez pas à me contacter ou télécharger mon CV ci-dessous.</p>
-          <br/>
+          <br />
+          <p>
+            Passionné par le coOde, je suis un tout jeune développeur à la
+            recherche de nouveaux projets incroyables! J’ai suivi récemment la
+            formation du Wagon et je suis maintenant totalement opérationnel.
+          </p>
+          <br />
+          <p>
+            J’ai été formé avec <strong>Ruby</strong>,{" "}
+            <strong>Ruby On Rails</strong> et <strong>Javascript</strong>. Je
+            développe également des applications extraordinaires avec{" "}
+            <strong>React</strong> et <strong>Node.js</strong>. Je recherche un
+            poste de développeur et suis à l'écoute des opportunités ! N’hésitez
+            pas à me contacter ou télécharger mon CV ci-dessous.
+          </p>
+          <br />
           <div className="resume">
             <DownloadButton />
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default About;
