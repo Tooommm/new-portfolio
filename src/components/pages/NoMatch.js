@@ -1,5 +1,6 @@
-import React from 'react';
-import './NoMatch.css';
+import "./NoMatch.css";
+
+import React from "react";
 
 const NoMatch = () => {
   return (
@@ -9,17 +10,17 @@ const NoMatch = () => {
           <h1>You're lost! </h1>
         </div>
         <div className="content">
-          <br/>
+          <br />
           <p>Nothing to do with the TV show...</p>
-          <br/>
+          <br />
           <p>
-            <code>{window.location.href}</code> <br/>
+            <code>{window.location.href}</code> <br />
             Does not exist on thomasbrouillet.com or not yet!
           </p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default NoMatch
+export default NoMatch;

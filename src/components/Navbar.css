@@ -1,7 +1,15 @@
 .navbar {
-  background: #232526;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -57,7 +65,11 @@
   box-shadow: 0 0 0 0 #433afc;
 }
 
-@keyframes pulse {to {box-shadow: 0 0 0 20px transparent;}}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 20px transparent;
+  }
+}
 
 .fa-bars {
   color: #fff;
@@ -89,9 +101,17 @@
   }
 
   .nav-menu.active {
-    background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #232526; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #414345,
+      #232526
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #414345,
+      #232526
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;

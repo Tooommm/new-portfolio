@@ -1,17 +1,21 @@
-import React from 'react';
-import './ProfileCard.css';
-import profilepic from '../assets/profilepic.png';
-import react from '../assets/react.svg';
-import javascript from '../assets/javascript.svg';
-import ruby from '../assets/ruby.svg';
-import rails from '../assets/rubyonrails.svg';
+import "./ProfileCard.css";
+
+import React from "react";
+import javascript from "../assets/javascript.svg";
+import profilepic from "../assets/profilepic.png";
+import rails from "../assets/rubyonrails.svg";
+import react from "../assets/react.svg";
+import ruby from "../assets/ruby.svg";
 
 const ProfileCard = () => {
-
   return (
     <div className="profile-card">
       <div className="profilepic-holder">
-        <a href="https://www.linkedin.com/in/thomas-brouillet/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/thomas-brouillet/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img className="profilepic" src={profilepic} alt="Thomas Brouillet" />
         </a>
         <div className="infos">
@@ -23,13 +27,33 @@ const ProfileCard = () => {
         <h3>Stacks</h3>
       </div>
       <div className="stacks-holder">
-        <img className="logo-profile bounce ruby" src={ruby} alt="Ruby" title="Ruby" />
-        <img className="logo-profile bounce rubyonrails" src={rails} alt="RubyOnRails" title="RubyOnRails"/>
-        <img className="logo-profile bounce react" src={react} alt="React" title="React"/>
-        <img className="logo-profile bounce javascript" src={javascript} alt="Javascript" title="Javascript"/>
+        <img
+          className="logo-profile bounce ruby"
+          src={ruby}
+          alt="Ruby"
+          title="Ruby"
+        />
+        <img
+          className="logo-profile bounce rubyonrails"
+          src={rails}
+          alt="RubyOnRails"
+          title="RubyOnRails"
+        />
+        <img
+          className="logo-profile bounce react"
+          src={react}
+          alt="React"
+          title="React"
+        />
+        <img
+          className="logo-profile bounce javascript"
+          src={javascript}
+          alt="Javascript"
+          title="Javascript"
+        />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProfileCard
+export default ProfileCard;

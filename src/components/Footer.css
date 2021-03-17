@@ -4,15 +4,23 @@
   align-items: center;
   justify-content: center;
   height: 10vh;
-  background: #232526;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
 }
 
 .footer a {
   font-size: 30px;
-  color:  #433afc;
+  color: #433afc;
   opacity: 0.7;
   transition: 0.3s;
 }
@@ -21,16 +29,14 @@
   opacity: 1;
 }
 
-
-
 .footer p {
-  color: #6B6C6C;
+  color: #6b6c6c;
 }
 
 .fa-heart {
-  color: #BF0F12;
+  color: #bf0f12;
 }
 
 .fa-react {
-  color: #61DBFB;
+  color: #61dbfb;
 }

@@ -4,7 +4,7 @@ h3 {
 
 p {
   font-size: 16px;
-  color: #CBCBCB;
+  color: #cbcbcb;
 }
 
 .project-card {
@@ -16,9 +16,17 @@ p {
   padding-bottom: 1rem;
   margin: 1rem;
   max-width: 50vw;
-  background: #232526;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 5px;
   box-shadow: 3px 3px 5px 0px #656565;
 }
@@ -58,46 +66,59 @@ p {
 }
 
 @keyframes bounce {
-  0%   { transform: scale(1,1)      translateY(0); }
-  10%  { transform: scale(1.1,.9)   translateY(0); }
-  30%  { transform: scale(.9,1.1)   translateY(-30px); }
-  50%  { transform: scale(1.05,.95) translateY(0); }
-  57%  { transform: scale(1,1)      translateY(-7px); }
-  64%  { transform: scale(1,1)      translateY(0); }
-  100% { transform: scale(1,1)      translateY(0); }
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-30px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
 }
 
 .ruby {
-  background-image: url('../assets/ruby.svg');
-
+  background-image: url("../assets/ruby.svg");
 }
 
 .javascript {
-  background-image: url('../assets/javascript.svg');
+  background-image: url("../assets/javascript.svg");
 }
 
 .react {
-  background-image: url('../assets/react.svg');
+  background-image: url("../assets/react.svg");
 }
 
 .rubyonrails {
-  background-image: url('../assets/rubyonrails.svg');
+  background-image: url("../assets/rubyonrails.svg");
 }
 
 .node-dot-js {
-  background-image: url('../assets/node-dot-js.svg');
+  background-image: url("../assets/node-dot-js.svg");
 }
 
 .html5 {
-  background-image: url('../assets/html5.svg');
+  background-image: url("../assets/html5.svg");
 }
 
 .css3 {
-  background-image: url('../assets/css3.svg');
+  background-image: url("../assets/css3.svg");
 }
 
 .heroku {
-  background-image: url('../assets/heroku.svg');
+  background-image: url("../assets/heroku.svg");
 }
 
 .card-footer {
@@ -113,12 +134,11 @@ p {
 }
 
 @media screen and (max-width: 960px) {
-
   p {
     font-size: 12px;
   }
   .card-holder {
-    width:  80vw;
+    width: 80vw;
     height: fit-content;
     text-align: center;
   }
