@@ -2,7 +2,7 @@ import "./ProfileCard.css";
 
 import React from "react";
 import javascript from "../assets/javascript.svg";
-import profilepic from "../assets/profilepic.png";
+import profilepicture from "../assets/profilepic.png";
 import rails from "../assets/rubyonrails.svg";
 import react from "../assets/react.svg";
 import ruby from "../assets/ruby.svg";
@@ -16,7 +16,11 @@ const ProfileCard = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img className="profilepic" src={profilepic} alt="Thomas Brouillet" />
+          <img
+            className="profilepic"
+            src={profilepicture}
+            alt="Thomas Brouillet"
+          />
         </a>
         <div className="infos">
           <h4>Thomas Brouillet</h4>
