@@ -25,7 +25,7 @@ const ProjectCard = ({ items }) => {
             target="_blank"
             rel="noreferrer"
           >
-            <Button text="Visit" />
+            <Button text="Let's Go" />
           </a>
           <a
             href={item.github}
