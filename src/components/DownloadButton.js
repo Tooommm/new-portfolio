@@ -13,7 +13,7 @@ const DownloadButton = () => {
 
       <div class="face-secondary">
         <span class="icon fa fa-hdd-o"></span>
-        Size: 154 ko
+        Size: 152 ko
       </div>
     </a>
   );
