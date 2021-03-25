@@ -2,7 +2,7 @@ import "./ProfileCard.css";
 
 import React from "react";
 import javascript from "../assets/javascript.svg";
-import profilepicture from "../assets/profilepic.png";
+import profilepicture from "../assets/profilepicture2.png";
 import rails from "../assets/rubyonrails.svg";
 import react from "../assets/react.svg";
 import ruby from "../assets/ruby.svg";
