@@ -15,7 +15,7 @@ const items = [
     stacks: ["react", "javascript", "node-dot-js", "heroku"],
     description:
       "This a collection of widgets with the Youtube and Wikipedia apis",
-    url: "https://tom-react-app.herokuapp.com/",
+    url: "https://tooommm-widget-app.netlify.app/",
     github: "https://github.com/Tooommm/widgets",
   },
   {
