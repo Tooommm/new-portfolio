@@ -13,9 +13,9 @@ const About = () => {
           <h2>Salut! Moi c'est Thomas.</h2>
           <br />
           <p>
-            Passionné par le code, je suis un tout jeune développeur à la
-            recherche de nouveaux projets incroyables! J’ai suivi récemment la
-            formation du Wagon et je suis maintenant totalement opérationnel.
+            Passionné par le code, je suis un développeur web à la recherche de
+            nouveaux projets incroyables! J’ai suivi récemment la formation du
+            Wagon et je suis maintenant totalement opérationnel.
           </p>
           <br />
           <p>

@@ -36,15 +36,9 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="nav-item">
-          <a
-            href="mailto:tom@thomasbrouillet.com"
-            className="nav-links"
-            onClick={closeMobileMenu}
-            target="_blank"
-            rel="noreferrer"
-          >
+          <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
