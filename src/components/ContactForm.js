@@ -3,6 +3,7 @@ import "./ContactForm.css";
 import React, { useEffect, useState } from "react";
 
 import FeedBack from "./FeedBack";
+import Spinner from "./Spinner";
 import emailjs from "emailjs-com";
 
 const ContactForm = () => {
@@ -12,6 +13,7 @@ const ContactForm = () => {
   const [company, setCompany] = useState("");
   const [phone, setPhone] = useState("");
   const [feedBack, setFeedBack] = useState("");
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     let inputMail = document.getElementById("email");
@@ -21,11 +23,15 @@ const ContactForm = () => {
       email.match(regex)
         ? (inputMail.style.borderBottomColor = "green")
         : (inputMail.style.borderBottomColor = "red");
+    } else {
+      inputMail.style.borderBottomColor = "white";
     }
   }, [email]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
+    setFeedBack("");
     emailjs
       .sendForm(
         "service_d01bsah",
@@ -41,6 +47,7 @@ const ContactForm = () => {
           setEmail("");
           setMessage("");
           setFeedBack("Votre message à bien été envoyé! Merci!");
+          setLoading(false);
         },
         (error) => {
           setFeedBack(error.text);
@@ -52,6 +59,7 @@ const ContactForm = () => {
     <form className="contact-form" onSubmit={handleSubmit}>
       <div className="title">
         <h1>Contact me</h1>
+        {loading && <Spinner />}
         {feedBack !== "" && <FeedBack message={feedBack} />}
       </div>
       <div className="form-content">
