@@ -7,7 +7,7 @@ const items = [
     stacks: ["ruby", "rubyonrails", "javascript", "heroku"],
     description:
       "Cette application web qui vise à mettre en relation des coachs sportifs à domicile et des particuliers.",
-    url: "http://www.coach-me.best/",
+    url: "https://coachela.herokuapp.com/",
     github: "https://github.com/nlabrazi/coachme",
   },
   {
